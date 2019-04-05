@@ -170,4 +170,4 @@ List of 169 parameters which set the AI characters' personality, f.e. what troop
 | Unknown165 | Int32 |  |
 | AttMaxDefault | Int32 | This does nothing |
 | Unknown167 | Int32 |  |
-| TargetChoice | TargetingType |  |
+| TargetChoice | [TargetingType](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Targeting-Type) |  |
