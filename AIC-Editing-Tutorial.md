@@ -11,11 +11,11 @@ Expand the description of the "vanilla.aic" and click on the export button.
 Close the UCP and check your selected Crusader folder. There should be a new folder called "aic".  
 ![](https://i.imgur.com/sLNjH5y.png)
 
-Inside of this folder should now be a "vanilla.aic". Rename it to "myversion.aic". You can now edit this file through a text editor or via [ByBurton's AI Character Editor (AICE)](https://github.com/ByBurton/AI_Character_Editor). As the use of the AICE is straightforward, I will describe an example edit in text form instead.
+Inside of this folder should now be a "vanilla.aic". Rename it to "myversion.aic".
 
 ### Editing your own file
 
-Open the "myversion.aic" file in a text editor of your choice. You will see a **AIFileHeader** section. This is supposed to include general information of the .aic-file like descriptions and their translations. You can also write a description with line breaks in the following way:  
+You can now edit this file through a text editor or via [ByBurton's AI Character Editor (AICE)](https://github.com/ByBurton/AI_Character_Editor). As the use of the AICE is straightforward, I will describe an example edit in text form instead. Open the "myversion.aic" file in a text editor of your choice. You will see a **AIFileHeader** section. This is supposed to include general information of the .aic-file like descriptions and their translations. You can also write a description with line breaks in the following way:  
 ![](https://i.imgur.com/VDXU5rq.png)
 
 Now, let's say we want to replace Philipp's Spearmen with Pikemen. Therefore we need to find the AICharacter entry of Philipp first:  
