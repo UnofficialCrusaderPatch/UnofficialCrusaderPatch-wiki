@@ -1,19 +1,5 @@
-| FletcherSettings |
-| :---: |
-| Bows |
-| Crossbows |
-| Both |
-
-
-| PoleturnerSettings |
-| :---: |
-| Spears |
-| Pikes |
-| Both |
-
-
-| BlacksmithSettings |
-| :---: |
-| Maces |
-| Swords |
-| Both |
+| Fletcher Settings | Poleturner Settings | BlacksmithSettings |
+| :---: | :---: | :---: |
+| Bows | Spears | Maces |
+| Crossbows | Pikes | Swords |
+| Both | Both | Both |
