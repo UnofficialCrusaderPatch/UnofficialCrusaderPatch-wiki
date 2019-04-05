@@ -14,14 +14,14 @@ List of 169 parameters which set the AI characters' personality, f.e. what troop
 | Unknown009 | Int32 |  |
 | Unknown010 | Int32 |  |
 | Unknown011 | Int32 |  |
-| Farm1 | FarmBuilding |  |
-| Farm2 | FarmBuilding |  |
-| Farm3 | FarmBuilding |  |
-| Farm4 | FarmBuilding |  |
-| Farm5 | FarmBuilding |  |
-| Farm6 | FarmBuilding |  |
-| Farm7 | FarmBuilding |  |
-| Farm8 | FarmBuilding |  |
+| Farm1 | [FarmBuilding](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/FarmBuilding) |  |
+| Farm2 | [FarmBuilding](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/FarmBuilding) |  |
+| Farm3 | [FarmBuilding](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/FarmBuilding) |  |
+| Farm4 | [FarmBuilding](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/FarmBuilding) |  |
+| Farm5 | [FarmBuilding](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/FarmBuilding) |  |
+| Farm6 | [FarmBuilding](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/FarmBuilding) |  |
+| Farm7 | [FarmBuilding](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/FarmBuilding) |  |
+| Farm8 | [FarmBuilding](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/FarmBuilding) |  |
 | PopulationPerFarm | Int32 | The AI builds one farm for each amount of this population value. (Also check MaxFarms) |
 | PopulationPerWoodcutter | Int32 |  |
 | PopulationPerQuarry | Int32 |  |
