@@ -14,14 +14,14 @@ List of 169 parameters which set the AI characters' personality, f.e. what troop
 | Unknown009 | Int32 |  |
 | Unknown010 | Int32 |  |
 | Unknown011 | Int32 |  |
-| Farm1 | [FarmBuilding](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/FarmBuilding) | An array of farm slots, which the AI builds in the given sequence. |
-| Farm2 | [FarmBuilding](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/FarmBuilding) |  |
-| Farm3 | [FarmBuilding](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/FarmBuilding) |  |
-| Farm4 | [FarmBuilding](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/FarmBuilding) |  |
-| Farm5 | [FarmBuilding](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/FarmBuilding) |  |
-| Farm6 | [FarmBuilding](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/FarmBuilding) |  |
-| Farm7 | [FarmBuilding](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/FarmBuilding) |  |
-| Farm8 | [FarmBuilding](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/FarmBuilding) |  |
+| Farm1 | [FarmBuilding](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Buildings) | An array of farm slots, which the AI builds in the given sequence. |
+| Farm2 | [FarmBuilding](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Buildings) |  |
+| Farm3 | [FarmBuilding](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Buildings) |  |
+| Farm4 | [FarmBuilding](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Buildings) |  |
+| Farm5 | [FarmBuilding](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Buildings) |  |
+| Farm6 | [FarmBuilding](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Buildings) |  |
+| Farm7 | [FarmBuilding](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Buildings) |  |
+| Farm8 | [FarmBuilding](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Buildings) |  |
 | PopulationPerFarm | Int32 | The AI builds one farm for each amount of this population value. (Also check MaxFarms) |
 | PopulationPerWoodcutter | Int32 |  |
 | PopulationPerQuarry | Int32 |  |
@@ -52,9 +52,9 @@ List of 169 parameters which set the AI characters' personality, f.e. what troop
 | MaxBeer | Int32 |  |
 | MaxResourceVariance | Int32 | added to all max resource values? |
 | Unknown049 | Int32 |  |
-| BlacksmithSetting | BlacksmithSetting |  |
-| FletcherSetting | FletcherSetting |  |
-| PoleturnerSetting | PoleturnerSetting |  |
+| BlacksmithSetting | [BlacksmithSetting](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Workshop-Settings) |  |
+| FletcherSetting | [FletcherSetting](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Workshop-Settings) |  |
+| PoleturnerSetting | [PoleturnerSetting](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Workshop-Settings) |  |
 | SellResource01 | [Resource](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Resource) |  |
 | SellResource02 | [Resource](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Resource) |  |
 | SellResource03 | [Resource](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Resource) |  |
@@ -86,11 +86,11 @@ List of 169 parameters which set the AI characters' personality, f.e. what troop
 | RecruitProbAttackWeak | Int32 |  |
 | RecruitProbAttackStrong | Int32 |  |
 | SortieUnitRangedMax | Int32 |  |
-| SortieUnitRanged | Unit | Type of ranged units that go to the last attacked farm or building, and guard it until another is attacked. |
+| SortieUnitRanged | [Unit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) | Type of ranged units that go to the last attacked farm or building, and guard it until another is attacked. |
 | SortieUnitMeleeMax | Int32 |  |
-| SortieUnitMelee | Unit | Type of melee units to attack enemy units shooting at the AI's buildings or workers. |
+| SortieUnitMelee | [Unit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) | Type of melee units to attack enemy units shooting at the AI's buildings or workers. |
 | DefDiggingUnitMax | Int32 | Amount of units that dig own moat. |
-| DefDiggingUnit | DiggingUnit | Type of unit to dig own moat. |
+| DefDiggingUnit | [DiggingUnit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) | Type of unit to dig own moat. |
 | RecruitInterval | Int32 |  |
 | RecruitIntervalWeak | Int32 | The 'weak' state sets in if the AI is completely trashed. F.e. troops < 8, gold < 200, population < 15, ... |
 | RecruitIntervalStrong | Int32 | The 'strong' state sets in if f.e. the AI has troops >= 40, gold >= 200, population >= 40, ... |
@@ -99,24 +99,24 @@ List of 169 parameters which set the AI characters' personality, f.e. what troop
 | Unknown094 | Int32 |  |
 | Unknown095 | Int32 |  |
 | DefWalls | Int32 |  |
-| DefUnit1 | Unit |  |
-| DefUnit2 | Unit |  |
-| DefUnit3 | Unit |  |
-| DefUnit4 | Unit |  |
-| DefUnit5 | Unit |  |
-| DefUnit6 | Unit |  |
-| DefUnit7 | Unit |  |
-| DefUnit8 | Unit |  |
+| DefUnit1 | [Unit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) |  |
+| DefUnit2 | [Unit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) |  |
+| DefUnit3 | [Unit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) |  |
+| DefUnit4 | [Unit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) |  |
+| DefUnit5 | [Unit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) |  |
+| DefUnit6 | [Unit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) |  |
+| DefUnit7 | [Unit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) |  |
+| DefUnit8 | [Unit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) |  |
 | RaidUnitsBase | Int32 | Base amount of raid troops, Special case: [unknown trigger => end result multiplied by 1.25] |
 | RaidUnitsRandom | Int32 | Maximum random addition to raid troops. Special cases: [gold > 5000 => multiplied by 2][gold < 1000 => set to 0][enemy gold < 500 => divided by -2] |
-| RaidUnit1 | Unit |  |
-| RaidUnit2 | Unit |  |
-| RaidUnit3 | Unit |  |
-| RaidUnit4 | Unit |  |
-| RaidUnit5 | Unit |  |
-| RaidUnit6 | Unit |  |
-| RaidUnit7 | Unit |  |
-| RaidUnit8 | Unit |  |
+| RaidUnit1 | [Unit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) |  |
+| RaidUnit2 | [Unit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) |  |
+| RaidUnit3 | [Unit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) |  |
+| RaidUnit4 | [Unit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) |  |
+| RaidUnit5 | [Unit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) |  |
+| RaidUnit6 | [Unit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) |  |
+| RaidUnit7 | [Unit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) |  |
+| RaidUnit8 | [Unit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) |  |
 | Unknown115 | Int32 |  |
 | Unknown116 | Int32 |  |
 | Unknown117 | Int32 |  |
@@ -146,26 +146,26 @@ List of 169 parameters which set the AI characters' personality, f.e. what troop
 | Unknown141 | Int32 |  |
 | Unknown142 | Int32 |  |
 | AttMaxEngineers | Int32 |  |
-| AttDiggingUnit | DiggingUnit | This unit is only recruited if the target enemy has moat and used preferably to dig enemy moat. |
+| AttDiggingUnit | [DiggingUnit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) | This unit is only recruited if the target enemy has moat and used preferably to dig enemy moat. |
 | AttDiggingUnitMax | Int32 |  |
-| AttUnit2 | Unit |  |
+| AttUnit2 | [Unit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) |  |
 | AttUnit2Max | Int32 |  |
 | AttMaxAssassins | Int32 |  |
 | AttMaxLaddermen | Int32 |  |
 | AttMaxTunnelers | Int32 |  |
-| AttUnitRangedPush | Unit | Ranged attack unit that moves towards the enemy keep and shoots |
+| AttUnitRangedPush | [Unit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) | Ranged attack unit that moves towards the enemy keep and shoots |
 | AttUnitRangedPushMax | Int32 |  |
 | Unknown153 | Int32 |  |
-| AttUnitBackup | Unit | Attacking unit that holds position and doesn't attack until the walls are breached. |
+| AttUnitBackup | [Unit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) | Attacking unit that holds position and doesn't attack until the walls are breached. |
 | AttUnitBackupMax | Int32 |  |
 | Unknown156 | Int32 |  |
-| AttUnit5 | Unit |  |
+| AttUnit5 | [Unit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) |  |
 | AttUnit5Max | Int32 |  |
-| AttUnitSiegeDef | Unit | These units patrol between siege enginees in order to protect them. |
+| AttUnitSiegeDef | [Unit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) | These units patrol between siege enginees in order to protect them. |
 | AttUnitSiegeDefMax | Int32 |  |
 | Unknown161 | Int32 |  |
-| AttUnitMain1 | Unit | The units the AI recruits as main part of the strike force |
-| AttUnitMain2 | Unit | The units the AI recruits as secondary part of the strike force |
+| AttUnitMain1 | [Unit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) | The units the AI recruits as main part of the strike force |
+| AttUnitMain2 | [Unit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) | The units the AI recruits as secondary part of the strike force |
 | Unknown164 | Int32 |  |
 | Unknown165 | Int32 |  |
 | AttMaxDefault | Int32 | This does nothing |
