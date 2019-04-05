@@ -1,13 +1,13 @@
-| Units |
-| :---: |
-| None |
-| Tunneler |
-| EuropArcher |
-| Crossbowman |
-| Spearman |
-| Pikeman |
-| Maceman |
-| Swordsman |
+| Units | Digging Units
+| :---: | :---: |
+| None | None |
+| Tunneler | Tunneler |
+| EuropArcher | EuropArcher |
+| Crossbowman | Spearman |
+| Spearman | Pikeman |
+| Pikeman | Maceman |
+| Maceman | Engineer |
+| Swordsman | Slave |
 | Knight |
 | Ladderman |
 | Engineer |
@@ -19,14 +19,3 @@
 | HorseArcher |
 | ArabSwordsman |
 | FireThrower |
-
-| Digging Units |
-| :---: |
-| None |
-| Tunneler |
-| EuropArcher |
-| Spearman |
-| Pikeman |
-| Maceman |
-| Engineer |
-| Slave |
