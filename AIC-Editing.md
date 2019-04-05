@@ -1,4 +1,4 @@
-The personalities and quirks of the AI characters in Stronghold Crusader are hardcoded in its executable into 168 integer parameters. This information can be edited through the use of the AI Character (AIC) format, which contains exactly these 168 parameters of each AI in text form, available to be edited by everyone. The UCP is then able to read the aic-file and edit Crusader's executable appropriately.
+The personalities and quirks of the AI characters in Stronghold Crusader are hardcoded in its executable into 169 integer parameters. This information can be edited through the use of the AI Character (AIC) format, which contains exactly these 168 parameters of each AI in text form, available to be edited by everyone. The UCP is then able to read the aic-file and edit Crusader's executable appropriately.
 
 ## HOW TO EDIT YOUR OWN AIC-FILE
 
