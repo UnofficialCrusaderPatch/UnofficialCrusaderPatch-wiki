@@ -1,3 +1,5 @@
+List of 169 parameters which set the AI characters' personality, f.e. what troops to recruit or how many iron mines to build.
+
 | Name | Type | Description |
 | :--- | :---: | :--- |
 | Unknown000 | Int32 |  |
