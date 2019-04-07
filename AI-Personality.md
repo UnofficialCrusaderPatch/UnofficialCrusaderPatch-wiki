@@ -8,7 +8,7 @@ List of 169 parameters which set the AI characters' personality, f.e. what troop
 | Unknown003 | Int32 |  |
 | Unknown004 | Int32 |  |
 | Unknown005 | Int32 |  |
-| CriticalPopularity | Int32 | Values range from 0 to 10000, where 100 popularity equals 10000. Below this value, the AI sells more stuff than usual to get money. |
+| CriticalPopularity | Integer (0-10000) | Values range from 0 to 10000, where 100 popularity equals 10000. Below this value, the AI sells more stuff than usual to get money. |
 | LowestPopularity | Int32 | Below this value the AI sets taxes zero until it reaches 'HighestPopularity' again. |
 | HighestPopularity | Int32 | Above this value the AI sets taxes back up |
 | Unknown009 | Int32 |  |
