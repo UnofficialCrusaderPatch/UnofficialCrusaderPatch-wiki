@@ -20,7 +20,7 @@ Your file should now appear in the list. If you check it and install the patch, 
 ### Editing AIC files
 
 There are two ways to edit the .aic files:
-1. Use the [AI Character Editor (AICE)](https://github.com/ByBurton/AI_Character_Editor) by [ByBurton](https://github.com/ByBurton) to have a graphical user interface for editing
+1. Use the [AI Character Editor (AICE)](https://github.com/ByBurton/AI_Character_Editor/releases) by [ByBurton](https://github.com/ByBurton) to have a graphical user interface for editing
 2. Use a text editor
 
 As the use of the **AICE** is straightforward, I will describe an example edit in text form instead. Open the "myversion.aic" file in a text editor of your choice. You will see an **AIFileHeader** section. This is supposed to include general information of the .aic-file like descriptions and their translations. You can also write a description with line breaks in the following way:  
