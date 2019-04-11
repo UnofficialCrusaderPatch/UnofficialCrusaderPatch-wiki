@@ -31,7 +31,7 @@ List of 169 parameters which set the AI characters' personality, f.e. what troop
 | MaxIronmines | Int32 |  |
 | MaxWoodcutters | Int32 |  |
 | MaxPitchrigs | Int32 |  |
-| MaxFarms | Int32 | The maximum amount of farms the AI builds. (Also check PopulationPerFarm) |
+| MaxFarms | Int32 | The maximum amount of farms the AI builds. HopFarms are excluded from this! (Also check PopulationPerFarm) |
 | BuildInterval | Int32 | This is only considered <= 5000 gold |
 | ResourceRebuildDelay | Int32 | The delay before the AI rebuilds destroyed buildings. |
 | MaxFood | Int32 | includes flour? |
