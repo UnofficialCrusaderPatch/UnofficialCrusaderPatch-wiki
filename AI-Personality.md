@@ -51,7 +51,7 @@ List of 169 parameters which set the AI characters' personality, f.e. what troop
 | MaxEquipment | Int32 |  |
 | MaxBeer | Int32 |  |
 | MaxResourceVariance | Int32 | added to all max resource values? |
-| Unknown049 | Int32 |  |
+| RecruitGoldThreshold | Int32 | A (gold) threshold which disables any recruitment of all units except for raiding and sortie until it is met |
 | BlacksmithSetting | [BlacksmithSetting](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Workshop-Settings) |  |
 | FletcherSetting | [FletcherSetting](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Workshop-Settings) |  |
 | PoleturnerSetting | [PoleturnerSetting](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Workshop-Settings) |  |
@@ -94,9 +94,9 @@ List of 169 parameters which set the AI characters' personality, f.e. what troop
 | RecruitInterval | Int32 |  |
 | RecruitIntervalWeak | Int32 | The 'weak' state sets in if the AI is completely trashed. F.e. troops < 8, gold < 200, population < 15, ... |
 | RecruitIntervalStrong | Int32 | The 'strong' state sets in if f.e. the AI has troops >= 40, gold >= 200, population >= 40, ... |
-| DefTotal | Int32 |  |
-| Unknown093 | Int32 |  |
-| Unknown094 | Int32 |  |
+| DefTotal | Int32 | The total count of all defensive units (wall defense + patrols) |
+| OuterPatrolGroupsCount | Int32 | The number of groups the patrols defending the outer economy split into. |
+| OuterPatrolGroupsMove | Bool | Whether the patrols stay at one place (quarry) or move around. |
 | Unknown095 | Int32 |  |
 | DefWalls | Int32 |  |
 | DefUnit1 | [Unit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) |  |
@@ -117,23 +117,23 @@ List of 169 parameters which set the AI characters' personality, f.e. what troop
 | RaidUnit6 | [Unit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) |  |
 | RaidUnit7 | [Unit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) |  |
 | RaidUnit8 | [Unit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) |  |
-| Unknown115 | Int32 |  |
-| Unknown116 | Int32 |  |
-| Unknown117 | Int32 |  |
-| Unknown118 | Int32 |  |
-| Unknown119 | Int32 |  |
-| Unknown120 | Int32 |  |
-| Unknown121 | Int32 |  |
-| Unknown122 | Int32 |  |
-| Unknown123 | Int32 |  |
+| HarassingSiegeEngine1 | HarassingSiegeEngine |  |
+| HarassingSiegeEngine2 | HarassingSiegeEngine |  |
+| HarassingSiegeEngine3 | HarassingSiegeEngine |  |
+| HarassingSiegeEngine4 | HarassingSiegeEngine |  |
+| HarassingSiegeEngine5 | HarassingSiegeEngine |  |
+| HarassingSiegeEngine6 | HarassingSiegeEngine |  |
+| HarassingSiegeEngine7 | HarassingSiegeEngine |  |
+| HarassingSiegeEngine8 | HarassingSiegeEngine |  |
+| HarassingSiegeEnginesMax | Int32 | The maximum of harassing siege engines an AI builds. |
 | Unknown124 | Int32 |  |
 | AttForceBase | Int32 | The base amount of troops with which this AI attacks |
 | AttForceRandom | Int32 | The maximum random amount of additional troops in an attack (this is not the amount by which the troops increase per attack!) |
-| Unknown127 | Int32 |  |
-| Unknown128 | Int32 |  |
+| AttForceRallyDistanceRandom | Int32 | The distance variance an AI will add to the default rally distance for sieges. |
+| AttForceRallyPercentage | Int32 | The %-amount of units of the attack force that the AI will rally before attacking. (0 - 100) |
 | Unknown129 | Int32 |  |
-| Unknown130 | Int32 |  |
-| Unknown131 | Int32 |  |
+| AttForceCasualtiesPercentageBeforeAssault | Int32 | The %-amount of (siege engines? engineers? laddermen? tunnelers? siege def?) that need to be destroyed / killed before the main units attack. |
+| AttForceSuccessRallyPercentage | Int32 | The %-amount of units of the attack force that will rally (at the bested enemy's keep location) before retreating or attacking again. |
 | Unknown132 | Int32 |  |
 | SiegeEngine1 | [SiegeEngine](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) |  |
 | SiegeEngine2 | [SiegeEngine](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) |  |
@@ -153,21 +153,21 @@ List of 169 parameters which set the AI characters' personality, f.e. what troop
 | AttMaxAssassins | Int32 |  |
 | AttMaxLaddermen | Int32 |  |
 | AttMaxTunnelers | Int32 |  |
-| AttUnitRangedPush | [Unit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) | Ranged attack unit that moves towards the enemy keep and shoots |
-| AttUnitRangedPushMax | Int32 |  |
-| Unknown153 | Int32 |  |
+| AttUnitPatrol | [Unit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) | Ranged attack unit that patrols around the enemy castle / keep. Preferably ranged units should be used here. |
+| AttUnitPatrolMax | Int32 |  |
+| AttUnitPatrolGroupsCount | Int32 | # of groups the AttUnitPatrol split into. BUGGY! More than 1 group results to only a single group attacking, the others standing idle. |
 | AttUnitBackup | [Unit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) | Attacking unit that holds position and doesn't attack until the walls are breached. |
 | AttUnitBackupMax | Int32 |  |
-| Unknown156 | Int32 |  |
-| AttUnit5 | [Unit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) |  |
-| AttUnit5Max | Int32 |  |
+| RangedBackupGroupsCount | Int32 | # of groups the RangedBackupUnits split into. If shields are present in the army, one will be added to each group (if possible). |
+| AttUnitEngage | [Unit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) | Units that engage enemy groups of units outside the castle. Prioritizes larger groups no matter where they are on the map. Otherwise destroys buildings outside the castle. |
+| AttUnitEngageMax | Int32 |  |
 | AttUnitSiegeDef | [Unit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) | These units patrol between siege enginees in order to protect them. |
 | AttUnitSiegeDefMax | Int32 |  |
 | Unknown161 | Int32 |  |
-| AttUnitMain1 | [Unit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) | The units the AI recruits as main part of the strike force |
-| AttUnitMain2 | [Unit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) | The units the AI recruits as secondary part of the strike force |
-| Unknown164 | Int32 |  |
-| Unknown165 | Int32 |  |
+| AttUnitMain1 | [Unit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) | AttUntiMain1 to AttUnitMain4 is a list of the main strike force the AI recruits for sieges. Priotizes in order of the list, but only recruits untis for which they have enough gold. So try to place expensive units higher up. |
+| AttUnitMain2 | [Unit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) |  |
+| AttUnitMain3 | [Unit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) |  |
+| AttUnitMain4 | [Unit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) |  |
 | AttMaxDefault | Int32 | This does nothing |
-| Unknown167 | Int32 |  |
+| AttMainGroupsCount | Int32 | "# of groups all the AttUnitMain split into. Maximum is 3" |
 | TargetChoice | [TargetingType](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Targeting-Type) |  |
