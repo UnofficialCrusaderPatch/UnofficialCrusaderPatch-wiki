@@ -169,5 +169,5 @@ List of 169 parameters which set the AI characters' personality, f.e. what troop
 | AttUnitMain3 | [Unit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) |  |
 | AttUnitMain4 | [Unit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) |  |
 | AttMaxDefault | Int32 | This does nothing |
-| AttMainGroupsCount | Int32 | "# of groups all the AttUnitMain split into. Maximum is 3" |
+| AttMainGroupsCount | Int32 | # of groups all the AttUnitMain split into. Maximum is 3 |
 | TargetChoice | [TargetingType](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Targeting-Type) |  |
