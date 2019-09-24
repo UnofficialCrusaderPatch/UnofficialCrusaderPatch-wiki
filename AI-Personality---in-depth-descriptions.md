@@ -45,7 +45,7 @@ should set it to: [# of armouries] times 50 divided by [# of types] minus [MaxRe
 
 You can also determine how many (if any) resources the AI will send to allies by setting the "MinimumGoodsRequiredAfterTrade" variable. If the player asks the AI for goods the AI will 
 take a look at that value and if it would still have more than this amount of the asked good after the trade it will send the goods. E.g.: Player asks an AI for 20 wood. MaxWood is set to 
-25 and MinimumGoodsRequiredAfterTrade is set to 15. The AI will probably have around 25 wood ==> 25 - 20 = 5 ==> 5 < 15 ==> AI won't send the wood.
+25 and MinimumGoodsRequiredAfterTrade is set to 15. The AI will probably have around 25 wood    ==>    25 - 20 = 5    ==>    5 < 15    ==>    AI won't send the wood.
 
 
 
