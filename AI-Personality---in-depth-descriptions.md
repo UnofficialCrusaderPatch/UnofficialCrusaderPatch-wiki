@@ -18,7 +18,7 @@ The RecruitProbs should be set so that all corresponding "Default", "Weak" and "
 After the AI has finished its castle and recruited first defenders and the sortie units, it will consider the recruit probabilities.
 It will select and recruit a random unit from the set probabilities.
 
-The higher the RecruitInterval value, the slower the AI will recruit.
+The higher the RecruitInterval value, the slower the AI will recruit. Vanilla values range between 0 and 8, though there is no difference between 0 and 1.
 
 RecruitGoldThreshold is mainly used (in vanilla Crusader) to ensure Crusader AI Lords always have 200 Gold, e.g. for their workshops. It prevents the AI from recruiting units other than for sortie and raids (for some reason) if it has less than the amount of gold specified here. Can be quite helpful to set in some situations. E.g. if the AI uses monks as main melee unit and should always try to build the cathedral required to recruit them.
 
