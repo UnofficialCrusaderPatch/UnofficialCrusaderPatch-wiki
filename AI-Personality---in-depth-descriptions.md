@@ -8,25 +8,19 @@ Thus a few things will be explained in more detail here.
 
 
 There are a number of different variables for units the AI can recruit. These can be grouped into four categories: Sortie, Defence, Raid, Offence.
-
 There are also different parameters that determine in which speed and priority these units are recruited. These are the RecruitProb and the RecruitInterval.
-
 Then there is also a threshold of gold (RecruitGoldThreshold) that determines if defensive or offensive units are recruited.
 
 
 Now, even if the variables for prioritizations are set, units set in sortie will ALWAYS be recruited first. They always have highest priority.
-
 SortieUnitRanged have priority over SortieUnitMelee.
-
 The RecruitProbs should be set so that all corresponding "Default", "Weak" and "Strong" add up to 100 for easier comparison.
-
 After the AI has finished its castle and recruited first defenders and the sortie units, it will look at the recruit probabilities.
 It will try to recruit a unit by comparing the numbers of those probabilities and then calculating a chance out of that.
 
 The RecruitInterval variable is easy to use and understand. The higher this value, the slower the AI will recruit. Values should stay between 1 and 16.
 
 The RecruitGoldThreshold is harder to explain and understand. It is mainly used (in vanilla Crusader) as to ensure Crusader AI Lords always have 200 Gold for their workshops.
-
 It prevents the AI from recruiting units other than for sortie and raids (for some reason) if it has less than the amount of gold specified here. Can be quite helpful to set in some situations. E.g. if the AI uses monks as main melee unit and should always try to build the cathedral required to recruit them.
 
 
