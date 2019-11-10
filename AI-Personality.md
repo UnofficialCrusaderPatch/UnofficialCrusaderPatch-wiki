@@ -49,7 +49,7 @@ List of 169 parameters which set the AI characters' personality, f.e. what troop
 | DoubleRationsFoodThreshold | Int32 | Above this value of food the AI will give double rations out. |
 | MaxWood | Int32 |  |
 | MaxStone | Int32 | maximum amount of stone to store in the stockpile + the amount of the biggest unbuild Stonebuilding that hasn't been reached in the buildorder of the AIV. |
-| MaxResourceOther | Int32 | maximum amount of hops, iron and flour to store in the stockpile. |
+| MaxResourceOther | Int32 | maximum amount of hops, iron, pitch and flour to store in the stockpile. |
 | MaxEquipment | Int32 | Maximum amount of weapons or armour stored in the armoury. |
 | MaxBeer | Int32 |  |
 | MaxResourceVariance | Int32 | allowed tolerance for all goods before AI sells back to max allowed stock |
