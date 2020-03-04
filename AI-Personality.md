@@ -13,8 +13,8 @@ List of 169 parameters which set the AI characters' personality, f.e. what troop
 | CriticalPopularity | 0 to 10000 | 10000 equals 100 popularity. Below this value, the AI sells more stuff than usual to get money. |
 | LowestPopularity | 0 to 10000 | Below this value the AI sets taxes in steps to TaxesMin, and rations to 'extra rations' until it reaches 'HighestPopularity' again. |
 | HighestPopularity | 0 to 10000 | Above this value the AI sets taxes back up until a stable 0 to -3 current popularity modifier is reached |
-| TaxesMin | 0 to 11 | Minimum taxes allowed. 0 to 11 beeing the steps from +7 popularity to -24 popularity by taxes in the keep. | 
-| TaxesMax | 0 to 11 | Maximum of Taxes allowed. 0 to 11 beeing the steps from +7 popularity to -24 popularity by taxes in the keep. |
+| TaxesMin | 0 to 12 | Minimum taxes allowed. 0 to 11 beeing the steps from +7 popularity to -24 popularity by taxes in the keep. | 
+| TaxesMax | 0 to 12 | Maximum of Taxes allowed. 0 to 11 beeing the steps from +7 popularity to -24 popularity by taxes in the keep. |
 | Unknown011 | Int32 |  |
 | Farm1 | [FarmBuilding](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Buildings) | An array of farm slots, which the AI builds in the given sequence. |
 | Farm2 | [FarmBuilding](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Buildings) |  |
