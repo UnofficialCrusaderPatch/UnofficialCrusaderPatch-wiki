@@ -9,7 +9,7 @@ Table of "power" values Crusader uses for each unit. For example when calculatin
 | Pikeman | 10 |
 | Swordsman | 30 |
 | Knight | 35 |
-| --- | --- |  
+| - | - |  
 | Arabian Archer | 8 |  
 | Slave | 1 |
 | Slinger | 2 |
@@ -17,12 +17,12 @@ Table of "power" values Crusader uses for each unit. For example when calculatin
 | Horse Archer | 15 |
 | Arabian Swordsman | 20 |
 | Firethrower | 16 |
-| :---: | :---: |  
+| - | - |  
 | Monk | 8 |
 | Tunneler | 5 |
 | Engineer | 5 |
 | Ladderman | 1 |
-| :---: | :---: |  
+| - | - |  
 | Catapult | 25 + 2*5 |
 | Trebuchet | 0 + 3*5 |
 | Tower | 0 + 4*5 |
