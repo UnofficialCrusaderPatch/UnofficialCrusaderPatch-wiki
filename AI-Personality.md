@@ -4,7 +4,7 @@ List of 169 parameters which set the AI characters' personality, f.e. what troop
 
 | Name | Value Type | Description |
 | :--- | :---: | :--- |
-| Unknown000 | Int32 |  |
+| Unknown000 | Int32 | Wall decorations like flags, set up in the AIV file, can be defined with this value. 10 to 13 are flags, 8 is poured oil, 9 are burning flames, 14 are braziers, 15 are decorative skills, 22 are disease clouds. More is described in issue #616 |
 | Unknown001 | Int32 |  |
 | Unknown002 | Int32 |  |
 | Unknown003 | Int32 |  |
@@ -44,7 +44,7 @@ List of 169 parameters which set the AI characters' personality, f.e. what troop
 | MinimumHop | Int32 | If the AI has less than this amount, it will prioritize buying the missing hops. |
 | TradeAmountFood | Int32 | The amount of food, wheat or hops bought at once. Only one of these trades is made per gametick. |
 | TradeAmountEquipment | Int32 | The amount of equipment for the armoury bought at once. Only one of these trades is made per gametick. |
-| Unknown040 | Int32 |  |
+| Unknown040 | Int32 | The time until an AI can request goods again after its request was dealt with |
 | MinimumGoodsRequiredAfterTrade | Int32 | If the AI would have less than this amount of a good after sending them, it won't send them to the requesting player. |
 | DoubleRationsFoodThreshold | Int32 | Above this value of food the AI will give double rations out. |
 | MaxWood | Int32 |  |
@@ -128,15 +128,15 @@ List of 169 parameters which set the AI characters' personality, f.e. what troop
 | HarassingSiegeEngine7 | HarassingSiegeEngine |  |
 | HarassingSiegeEngine8 | HarassingSiegeEngine |  |
 | HarassingSiegeEnginesMax | Int32 | The maximum of harassing siege engines an AI builds. Capped at 10. |
-| Unknown124 | Int32 |  |
+| Unknown124 | Int32 | Might bug out ranged units when too low, this is the time raid units take until they get new instructions |
 | AttForceBase | Int32 | The base amount of troops with which this AI attacks |
 | AttForceRandom | Int32 | The maximum random amount of additional troops in an attack (this is not the amount by which the troops increase per attack!) |
 | AttForceSupportAllyThreshold | Int32 | If the AI has more than this amount of units in the attack force, it will help their allies or siege an enemy if commanded to do so. |
 | AttForceRallyPercentage | Int32 | The %-amount of units of the attack force that the AI will rally before attacking. (0 - 100) |
 | Unknown129 | Int32 |  |
-| Unknown130 | Int32 |  |
+| Unknown130 | Int32 | A delay for the main army attack, while siege engines are active. |
 | Unknown131 | Int32 | Supposedly the gameticks, until the Attackunit patrol get ordered a new command for patroling around the enemy's keep|
-| Unknown132 | Int32 |  |
+| Unknown132 | Int32 | The delay until the main army gets a new command, mainly visible when a lord got killed, the army might retreat faster from the conquered location. |
 | SiegeEngine1 | [SiegeEngine](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) |  |
 | SiegeEngine2 | [SiegeEngine](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) |  |
 | SiegeEngine3 | [SiegeEngine](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) |  |
@@ -170,7 +170,7 @@ List of 169 parameters which set the AI characters' personality, f.e. what troop
 | AttUnitMain2 | [Unit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) |  |
 | AttUnitMain3 | [Unit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) |  |
 | AttUnitMain4 | [Unit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) |  |
-| AttMaxDefault | Int32 | This does nothing |
+| AttMaxDefault | Int32 | The maximum amount of units produced of AttUnitMain, until all other troop type maximums have been filled out. Only after, or when unable to produce the other units, the AI will fill up the main army with more AttMainUnit# |
 | AttMainGroupsCount | Int32 | # of groups all the AttUnitMain split into. Maximum is 3 |
 | TargetChoice | [TargetingType](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Targeting-Type) | Options are: Gold - will target enemy with most gold. Balanced - will target weakest enemy. Closest - will target closest enemy. Player - will target player, or closest enemy if in players team or in multiplayer. |
 ***
