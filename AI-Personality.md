@@ -135,7 +135,7 @@ List of 169 parameters which set the AI characters' personality, f.e. what troop
 | AttForceRallyPercentage | Int32 | The %-amount of units of the attack force that the AI will rally before attacking. (0 - 100) |
 | Unknown129 | Int32 |  |
 | Unknown130 | Int32 | A delay for the main army attack, while siege engines are active. |
-| Unknown131 | Int32 | Supposedly the gameticks, until the Attackunit patrol get ordered a new command for patroling around the enemy's keep|
+| AttUnitPatrolRecommandDelay| Int32 | The amount of gameticks, until the Attackunit patrol get issued a new command for patroling around the enemy's keep/castle |
 | Unknown132 | Int32 | The delay until the main army gets a new command, mainly visible when a lord got killed, the army might retreat faster from the conquered location. |
 | SiegeEngine1 | [SiegeEngine](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) |  |
 | SiegeEngine2 | [SiegeEngine](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) |  |
