@@ -165,7 +165,7 @@ List of 169 parameters which set the AI characters' personality, f.e. what troop
 | AttUnitEngageMax | Int32 |  |
 | AttUnitSiegeDef | [Unit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) | These units patrol between siege enginees in order to protect them. Get priority in attackunit recruitment process. |
 | AttUnitSiegeDefMax | Int32 |  |
-| Unknown161 | Int32 | This may or may not be the number of groups the AttUnitSiegeDef split into |
+| AttUnitSiegeDefGroupsCount | Int32 | # of groups the AttUnitSiegeDef split into. |
 | AttUnitMain1 | [Unit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) | AttUntiMain1 to AttUnitMain4 is a list of the main strike force the AI recruits for sieges. Priotizes in order of the list, but only recruits untis for which they have enough gold. So try to place expensive units higher up. |
 | AttUnitMain2 | [Unit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) |  |
 | AttUnitMain3 | [Unit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) |  |
