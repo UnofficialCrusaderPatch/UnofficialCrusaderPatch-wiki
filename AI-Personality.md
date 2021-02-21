@@ -44,7 +44,7 @@ List of 169 parameters which set the AI characters' personality, f.e. what troop
 | MinimumHop | Int32 | If the AI has less than this amount, it will prioritize buying the missing hops. |
 | TradeAmountFood | Int32 | The amount of food, wheat or hops bought at once. Only one of these trades is made per gametick. |
 | TradeAmountEquipment | Int32 | The amount of equipment for the armoury bought at once. Only one of these trades is made per gametick. |
-| Unknown040 | Int32 | The time until an AI can request goods again after its request was dealt with |
+| Unknown040 | Int32 | The time until an AI can request goods again after its request was accepted. |
 | MinimumGoodsRequiredAfterTrade | Int32 | If the AI would have less than this amount of a good after sending them, it won't send them to the requesting player. |
 | DoubleRationsFoodThreshold | Int32 | Above this value of food the AI will give double rations out. |
 | MaxWood | Int32 |  |
