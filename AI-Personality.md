@@ -4,7 +4,7 @@ List of 169 parameters which set the AI characters' personality, f.e. what troop
 
 | Name | Value Type | Description |
 | :--- | :---: | :--- |
-| Unknown000 | Int32 | Wall decorations like flags, set up in the AIV file, can be defined with this value. 10 to 13 are flags, 8 is poured oil, 9 are burning flames, 14 are braziers, 15 are decorative skills, 22 are disease clouds. More is described in issue #616 |
+| WallDecoration| Int32 | Wall decorations like flags, set up in the AIV file, can be defined with this value. 10 to 13 are flags, 8 is poured oil, 9 are burning flames, 14 are braziers, 15 are decorative skills, 22 are disease clouds. More is described in issue #616 |
 | Unknown001 | Int32 |  |
 | Unknown002 | Int32 |  |
 | Unknown003 | Int32 |  |
@@ -44,7 +44,7 @@ List of 169 parameters which set the AI characters' personality, f.e. what troop
 | MinimumHop | Int32 | If the AI has less than this amount, it will prioritize buying the missing hops. |
 | TradeAmountFood | Int32 | The amount of food, wheat or hops bought at once. Only one of these trades is made per gametick. |
 | TradeAmountEquipment | Int32 | The amount of equipment for the armoury bought at once. Only one of these trades is made per gametick. |
-| Unknown040 | Int32 | The time until an AI can request goods again after its request was accepted. |
+| AIRequestDelay | Int32 | The time until an AI can request goods again after its request was accepted. |
 | MinimumGoodsRequiredAfterTrade | Int32 | If the AI would have less than this amount of a good after sending them, it won't send them to the requesting player. |
 | DoubleRationsFoodThreshold | Int32 | Above this value of food the AI will give double rations out. |
 | MaxWood | Int32 |  |
@@ -134,7 +134,7 @@ List of 169 parameters which set the AI characters' personality, f.e. what troop
 | AttForceSupportAllyThreshold | Int32 | If the AI has more than this amount of units in the attack force, it will help their allies or siege an enemy if commanded to do so. |
 | AttForceRallyPercentage | Int32 | The %-amount of units of the attack force that the AI will rally before attacking. (0 - 100) |
 | Unknown129 | Int32 |  |
-| Unknown130 | Int32 | A delay for the main army attack, while siege engines are active. |
+| AttAssaultDelay | Int32 | A delay for the main army attack, while siege engines are active. |
 | AttUnitPatrolRecommandDelay| Int32 | The amount of gameticks, until the Attackunit patrol get issued a new command for patroling around the enemy's keep/castle |
 | Unknown132 | Int32 | The delay until the main army gets a new command, mainly visible when a lord got killed, the army might retreat faster from the conquered location. |
 | SiegeEngine1 | [SiegeEngine](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) |  |
@@ -150,8 +150,8 @@ List of 169 parameters which set the AI characters' personality, f.e. what troop
 | AttMaxEngineers | Int32 |  |
 | AttDiggingUnit | [DiggingUnit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) | This unit is only recruited if the target enemy has moat and used preferably to dig enemy moat. |
 | AttDiggingUnitMax | Int32 |  |
-| AttUnit2 | [Unit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) | Type of unit, that engages the enemy walls and traps before the main army moves in |
-| AttUnit2Max | Int32 |  |
+| AttUnitVanguard | [Unit](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Units) | Type of unit, that engages the enemy walls and traps before the main army moves in |
+| AttUnitVanguardMax | Int32 |  |
 | AttMaxAssassins | Int32 |  |
 | AttMaxLaddermen | Int32 |  |
 | AttMaxTunnelers | Int32 |  |
