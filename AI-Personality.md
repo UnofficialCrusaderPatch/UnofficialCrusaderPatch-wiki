@@ -128,7 +128,7 @@ List of 169 parameters which set the AI characters' personality, f.e. what troop
 | HarassingSiegeEngine7 | HarassingSiegeEngine |  |
 | HarassingSiegeEngine8 | HarassingSiegeEngine |  |
 | HarassingSiegeEnginesMax | Int32 | The maximum of harassing siege engines an AI builds. Capped at 10. |
-| Unknown124 | Int32 | Might bug out ranged units when too low, this is the time raid units take until they get new instructions |
+| RaidRetargetDelay | Int32 | Might bug out ranged units when too low, this is the time raid units take until they get new instructions |
 | AttForceBase | Int32 | The base amount of troops with which this AI attacks |
 | AttForceRandom | Int32 | The maximum random amount of additional troops in an attack (this is not the amount by which the troops increase per attack!) |
 | AttForceSupportAllyThreshold | Int32 | If the AI has more than this amount of units in the attack force, it will help their allies or siege an enemy if commanded to do so. |
