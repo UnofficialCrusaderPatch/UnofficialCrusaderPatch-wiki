@@ -25,11 +25,13 @@ jobs:
         with:
           repository: UnofficialCrusaderPatch/UnofficialCrusaderPatch.wiki
           path: UnofficialCrusaderPatch.wiki
+          fetch-depth: 0
           
       - uses: actions/checkout@v4
         with:
           repository: UnofficialCrusaderPatch/UnofficialCrusaderPatch-wiki
           path: UnofficialCrusaderPatch-wiki
+          fetch-depth: 0
 
       - name: Run a multi-line script
         run: |
