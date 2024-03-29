@@ -1,3 +1,5 @@
+**Note:** Pages taken from the original wiki for the UCP2. Infos may partially still apply to UCP3, but are legacy.
+
 Welcome to the UnofficialCrusaderPatch wiki!
 
 Skim through here to get information about the patcher, how to modify AI itself and how to contribute to the codebase.
