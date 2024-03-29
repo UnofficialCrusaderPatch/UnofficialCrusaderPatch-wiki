@@ -9,4 +9,4 @@
 An AI with the "Balanced" targeting type will attack the enemy with the lowest calculated weighting value according to the following formula:   
 `weight = (target's gold) / 100 + (power of target's army) + (target's available peasants) + 2 * (distance to target)`  
 
-The army power of a player is the sum of all of their units' [power values](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/Unit-Power-Table).
+The army power of a player is the sum of all of their units' [power values|UCP2-Unit-Power-Table].
