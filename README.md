@@ -1,5 +1,17 @@
 ## Instructions
 
+## Contribute
+File a Pull Request with your changes. When your changes are considered good to go, a preview is built on the [wiki](https://github.com/UnofficialCrusaderPatch/UnofficialCrusaderPatch-wiki/wiki) of this repository.
+
+When that also looks good, the changes are published upstream to [the real wiki](https://github.com/UnofficialCrusaderPatch/UnofficialCrusaderPatch/wiki).
+
+### What to contribute
+- Game information: size of map, information about AI parameters, which sound file maps to which voice line, etc.
+- Articles about UCP3 and the GUI: tutorials, wiki documentation on usage of the software.
+- Content contributions: documentation of the currently shipped UCP3 features.
+
+## Developers
+
 ### Pushing changes to the actual wiki:
 ```shell
 git clone https://github.com/UnofficialCrusaderPatch/UnofficialCrusaderPatch-wiki
