@@ -24,7 +24,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: UnofficialCrusaderPatch/UnofficialCrusaderPatch-wiki.wiki
-          path: UnofficialCrusaderPatch.wiki
+          path: UnofficialCrusaderPatch-wiki.wiki
           fetch-depth: 0
           
       - uses: actions/checkout@v4
