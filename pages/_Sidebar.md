@@ -1,5 +1,20 @@
 [[Home]]
 
+[[Game Data|Game-Data]]
+- [[AI|Game-Data-AI]]
+  - [[AI-Personality|Game-Data-AI-Personality]]
+  - [[AI-Personality---in-depth-descriptions|Game-Data-AI-Personality---in-depth-descriptions]]
+  - [[Buildings|Game-Data-Buildings]]
+  - [[Resource|Game-Data-Resource]]
+  - [[Targeting-Type|Game-Data-Targeting-Type]]
+  - [[Unit-Power-Table|Game-Data-Unit-Power-Table]]
+  - [[Units|Game-Data-Units]]
+  - [[Workshop-Settings|Game-Data-Workshop-Settings]]
+  - [[AI-Voice|Game-Data-AI-Voice]]
+
+[[Modules|Modules]]
+- [[AI Swapper|Modules-AI-Swapper]]
+
 [[UnofficialCrusaderPatch2 (Legacy)|UCP2]]
 - [[UCP-Installation|UCP2-UCP-Installation]]
 - [[AIC-Editing-Tutorial|UCP2-AIC-Editing-Tutorial]]
