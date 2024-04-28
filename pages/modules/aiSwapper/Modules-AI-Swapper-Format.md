@@ -87,6 +87,10 @@ JSON does not support comments. These are only for documentation purposes and ne
 
 ### portrait.png and portrait_small.png
 
-These files are transformed to the actual AI portraits in-game.
+These files are transformed to the actual AI portraits in-game. Unlike before, where the portraits used Windows bitmap format, only the [PNG-format](https://de.wikipedia.org/wiki/Portable_Network_Graphics) is supported as of now.  
+Additionally, the handling of transparency was changed. While transparency was indicated by a special magenta color before, the portraits of the AI format actually use the alpha channel to indicate transparency. It is important to understand that the game still only supports whether there should be a pixel or not and alpha values like 0.3 or 0.7 for example are rounded to 0 or 1. Being aware of this can help preventing edge artifacts.  
+Both the normal and the small portrait need to be provided if the portrait support should be available.
 
-TODO
+_Format_:
+- _portrait.png_: 72x72
+- _portrait_small.png_: 36x36
